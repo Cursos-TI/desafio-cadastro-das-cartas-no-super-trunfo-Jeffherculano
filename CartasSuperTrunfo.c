@@ -16,7 +16,7 @@ int main () {
     //Declaração de variáveis da segunda carta:
 
     char estado_2;
-    char codcarta_2[5];
+    char codcarta_2[10];
     char nome_cidade2[20];
     int popul2;
     float areakm2;
