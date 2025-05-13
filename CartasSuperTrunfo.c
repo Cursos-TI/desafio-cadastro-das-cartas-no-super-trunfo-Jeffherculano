@@ -13,6 +13,16 @@ int main () {
     float pib1;
     int ponto_tur1;
 
+    //Declaração de variáveis da segunda carta:
+
+    char estado_2;
+    char codcarta_2[5];
+    char nome_cidade2[20];
+    int população2;
+    float areakm2;
+    float pib2;
+    int ponto_tur2;
+
     
 
 }
