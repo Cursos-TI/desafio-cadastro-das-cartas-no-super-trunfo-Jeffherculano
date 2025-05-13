@@ -6,7 +6,7 @@ int main () {
     //Declaração de variáveis da primeira carta:
     
     char estado_1;
-    char codcarta_1[5];
+    char codcarta_1[10];
     char nome_cidade1[20];
     int popul1;
     float areakm1;
@@ -26,6 +26,27 @@ int main () {
     // Inserção de dados da primeira carta:
 
     printf("Agora você irá inserir os dados da primeira carta. \n");
+    
+    printf("Digite a primeira letra do estado: ");
+    scanf("%c", &estado_1);
+
+    printf("Digite o código da carta: ");
+    scanf("%s", &codcarta_1);
+
+    printf("Digite o nome da cidade: ");
+    scanf("%s", &nome_cidade1);
+
+    printf("Digite a população desta cidade: ");
+    scanf("%d", &popul1);
+
+    printf("Digite a área desta cidade: ");
+    scanf("%f", &areakm1);
+
+    printf("Digite o PIB desta cidade: ");
+    scanf("%f", &pib1);
+
+    printf("Digite a quantidade de pontos turísticos nesta cidade: ");
+    scanf("%d", &ponto_tur1);
 
     return 0;
 }
