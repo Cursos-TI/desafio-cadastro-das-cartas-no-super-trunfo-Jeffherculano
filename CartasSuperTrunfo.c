@@ -8,7 +8,7 @@ int main () {
     char estado_1;
     char codcarta_1[5];
     char nome_cidade1[20];
-    int população1;
+    int popul1;
     float areakm1;
     float pib1;
     int ponto_tur1;
@@ -18,7 +18,7 @@ int main () {
     char estado_2;
     char codcarta_2[5];
     char nome_cidade2[20];
-    int população2;
+    int popul2;
     float areakm2;
     float pib2;
     int ponto_tur2;
@@ -27,4 +27,5 @@ int main () {
 
     printf("Agora você irá inserir os dados da primeira carta. \n");
 
+    return 0;
 }
