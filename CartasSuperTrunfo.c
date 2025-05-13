@@ -23,6 +23,8 @@ int main () {
     float pib2;
     int ponto_tur2;
 
-    
+    // Inserção de dados da primeira carta:
+
+    printf("Agora você irá inserir os dados da primeira carta. \n");
 
 }
