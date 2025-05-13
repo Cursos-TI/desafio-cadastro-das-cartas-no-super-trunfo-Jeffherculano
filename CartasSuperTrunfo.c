@@ -31,10 +31,11 @@ int main () {
     scanf("%c", &estado_1);
 
     printf("Digite o código da carta: ");
-    scanf("%s", &codcarta_1);
+    scanf(" %s", &codcarta_1);
 
     printf("Digite o nome da cidade: ");
-    scanf("%s", &nome_cidade1);
+    fgets(nome_cidade1, 20, stdin);
+    nome_cidade1[strcspn(nome_cidade1, "\n")] = 0;
 
     printf("Digite a população desta cidade: ");
     scanf("%d", &popul1);
@@ -47,6 +48,10 @@ int main () {
 
     printf("Digite a quantidade de pontos turísticos nesta cidade: ");
     scanf("%d", &ponto_tur1);
+
+    printf("Exbindo agora os dados da primeira carta. \n");
+
+    printf("Estado: %c \n", estado_1);
 
     return 0;
 }
