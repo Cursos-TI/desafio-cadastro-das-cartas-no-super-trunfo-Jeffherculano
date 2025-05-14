@@ -40,7 +40,7 @@ int main () {
     printf("Digite a população desta cidade: ");
     scanf("%d", &popul1);
 
-    printf("Digite a área desta cidade: ");
+    printf("Digite a área desta cidade em quilômetros: ");
     scanf("%f", &areakm1);
 
     printf("Digite o PIB desta cidade: ");
@@ -49,9 +49,13 @@ int main () {
     printf("Digite a quantidade de pontos turísticos nesta cidade: ");
     scanf("%d", &ponto_tur1);
 
+// As próximas linhas apenas mostram os dados da primeira carta que foram inseridos.
+
     printf("Exbindo agora os dados da primeira carta. \n");
 
-    printf("Estado: %c \n", estado_1);
+    printf("Estado: %c \n O código da carta: %s \n O nome da cidade: %s", estado_1, codcarta_1, nome_cidade1);
+    printf("A população da cidade é: %d \n A área desta cidade em quilômetros é: %.2fkm² \n", popul1, areakm1);
+    printf("O PIB desta cidade é: %.2fBilhões de reais. \n A quantidade de pontos turísticos nesta cidade é: %i", pib1, ponto_tur1);
 
     return 0;
 }
