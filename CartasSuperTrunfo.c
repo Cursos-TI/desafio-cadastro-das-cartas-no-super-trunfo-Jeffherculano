@@ -55,7 +55,42 @@ int main () {
 
     printf("Estado: %c \n O código da carta: %s \n O nome da cidade: %s", estado_1, codcarta_1, nome_cidade1);
     printf("A população da cidade é: %d \n A área desta cidade em quilômetros é: %.2fkm² \n", popul1, areakm1);
-    printf("O PIB desta cidade é: %.2fBilhões de reais. \n A quantidade de pontos turísticos nesta cidade é: %i", pib1, ponto_tur1);
+    printf("O PIB desta cidade é: %.2f Bilhões de reais. \n A quantidade de pontos turísticos nesta cidade é: %i \n", pib1, ponto_tur1);
+
+// Agora será a inserção de dados da segunda carta.
+
+    printf("Agora você irá inserir os dados da segunda carta. \n");
+    getchar();
+    
+    printf("Digite a primeira letra do estado: ");
+    scanf("%c", &estado_2);
+
+    printf("Digite o código da carta: ");
+    scanf("%s", &codcarta_2);
+    getchar();
+
+    printf("Digite o nome da cidade: ");
+    fgets(nome_cidade2,20,stdin);
+
+    printf("Digite a população desta cidade: ");
+    scanf("%d", &popul2);
+
+    printf("Digite a área desta cidade em quilômetros: ");
+    scanf("%f", &areakm2);
+
+    printf("Digite o PIB desta cidade: ");
+    scanf("%f", &pib2);
+
+    printf("Digite a quantidade de pontos turísticos nesta cidade: ");
+    scanf("%d", &ponto_tur2);
+
+// Agora será a visualização de dados da segunda carta.
+    
+    printf("Exbindo agora os dados da segunda carta. \n");
+
+    printf("Estado: %c \n O código da carta: %s \n O nome da cidade: %s", estado_2, codcarta_2, nome_cidade2);
+    printf("A população da cidade é: %d \n A área desta cidade em quilômetros é: %.2fkm² \n", popul2, areakm2);
+    printf("O PIB desta cidade é: %.2f Bilhões de reais. \n A quantidade de pontos turísticos nesta cidade é: %i", pib2, ponto_tur2);   
 
     return 0;
 }
