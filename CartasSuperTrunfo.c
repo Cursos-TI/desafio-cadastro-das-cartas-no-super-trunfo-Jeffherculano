@@ -31,11 +31,11 @@ int main () {
     scanf("%c", &estado_1);
 
     printf("Digite o código da carta: ");
-    scanf(" %s", &codcarta_1);
+    scanf("%s", &codcarta_1);
+    getchar();
 
     printf("Digite o nome da cidade: ");
-    fgets(nome_cidade1, 20, stdin);
-    nome_cidade1[strcspn(nome_cidade1, "\n")] = 0;
+    fgets(nome_cidade1,20,stdin);
 
     printf("Digite a população desta cidade: ");
     scanf("%d", &popul1);
